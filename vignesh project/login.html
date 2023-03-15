@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey folks!!</title>
+    <script src="index.js"></script>
+</head>
+<style>
+    body{
+        background-image: url("images/bmibg.webp");
+        font-family:cursive;
+        color: black;
+    }
+    #np
+    {
+        left: 55px;
+        position: relative;       
+    }
+    .box{
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+       height:450px;
+       width:350px;
+       margin: 200px auto;
+       background-color: rgb(255, 255, 255);
+        border-radius:10px;
+        padding:30px;
+        box-shadow: 5px,0px,0px #000000 ;
+
+    }
+    .form{
+        
+        font-size: 20px;
+    }
+   
+    button:hover{
+        cursor:pointer;
+    }
+    #signupbtn
+    {
+        position: relative;
+        left: 55px;
+        background-color: rgb(19, 106, 177);
+        color: aliceblue;
+        border-radius: 7px;
+        width: 222px;
+        height: 22px;
+
+    }
+    #head
+    {
+        text-align: center;
+        position: relative;
+
+    }
+    body{
+        background-color:rgb(189, 195, 201);
+    }
+    #name
+    {
+        height: 22px;
+        width: 222px ;
+        border-color: rgb(128, 128, 128);
+        border-radius: 6px;
+        border-width: 2.2px;
+    }
+   #result{
+    text-align: center;
+    color:rgb(17, 14, 14);
+    margin-top:20px;
+    font-size:26px;
+   }
+</style>
+<body> 
+   <div class="box">
+   
+    
+    <div class="form">
+        <h1 id="head" style="color : #000516"  >Log in</h1>
+        <div id="np">
+            
+            <label for="mail">Email : </label><br>
+            <input type="email" placeholder="Eg : Surya123@abc.com" id="name" required><br><br>
+            <label for="name">Password :</label><br>
+            <input type="password" placeholder="password" id="name" required><br><br>
+            
+        </div>
+        <button id="signupbtn" type="submit" onclick="calc()">Log in</button><br><br>
+        <hr><br>
+       <div id="loginbtn" style="font-size: small; text-align: center; ">
+        <a href="" onclick="forgot()">
+            forgot password?
+        </a>
+       </div>        
+       
+    </div>
+</div>
+
+</body>
+</html>
